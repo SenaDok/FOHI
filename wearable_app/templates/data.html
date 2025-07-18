@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Data Intervals</title>
+<h1>Valid 2h Intervals</h1>
+<ul>
+{% for interval in intervals %}
+  <li>{{ interval[0][0] }} - {{ interval[-1][0] }}</li>
+{% else %}
+  <li>No valid intervals found</li>
+{% endfor %}
+</ul>
+<a href="/">Back to summary</a>
