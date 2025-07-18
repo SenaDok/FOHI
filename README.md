@@ -1,8 +1,9 @@
 # Foundations of Health Informatics - Networking and Data Exchange in Healthcare
-
+## Wearable Data App
+A small Flask app for viewing wearable heartrate exports.
+Install dependencies with `pip install -r wearable_app/requirements.txt` and run `python3 wearable_app/wearable_app.py`. Upload `heartrates.csv` or `heartrates.json` via `/upload` to view summaries.
 
 ## Course Project: [FHIRedit](TBD)
-
 In our course project we will build an interactive web application for collaborating on healthcare data between doctors and patients. We will (step-by-step) extend our Text Editor (https://github.com/dominikb1888/rim) and apply our knowledge on Networking, Healthcare Data and Security.
 
 ## Literature

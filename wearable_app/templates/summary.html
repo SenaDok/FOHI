@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Summary</title>
+<h1>Latest 2h Interval Summary</h1>
+<p>Min: {{ minimum }}</p>
+<p>Max: {{ maximum }}</p>
+<p>Average: {{ average }}</p>
+<img src="{{ url_for('plot_png') }}" alt="Heartrate plot">
+<a href="/data">See all intervals</a>
